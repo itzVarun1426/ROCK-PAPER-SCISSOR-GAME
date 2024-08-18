@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ROCK PAPER SCISSOR GAME</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">Rock Paper Scissor </header>
+    <main class="main">
+        <div class="score-board">
+            <div class="score-board-user">
+                <p class="user-score scores">0</p>
+                <span>Your score</span>
+            </div>
+            <div class="score-board-comp">
+                <p class="comp-score scores">0</p>
+                <span>Comp score</span>
+            </div>
+        </div>
+        <div class="game-screen">
+            <img class="userimg" src="userc.png" alt="user">
+            <img src="vs.png" alt="vurses">
+            <img class="compimg" src="aicpu.png" alt="computer">
+        </div>
+
+        <p class="result_text hide"></p>
+        <p class="result_text2"></p>
+        <div class="choice-btn">
+            <button class="btn" id="Rock"><span>ROCK</span></button>
+            <button class="btn" id="Paper"><span>PAPER</span></button>
+            <button class="btn" id="Scissor"><span>SCISSOR</span></button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

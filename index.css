@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background: hsla(280, 95%, 57%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(280, 95%, 57%, 1) 0%,
+    hsla(193, 90%, 55%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(280, 95%, 57%, 1) 0%,
+    hsla(193, 90%, 55%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(280, 95%, 57%, 1) 0%,
+    hsla(193, 90%, 55%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B429F9", endColorstr="#26C5F3", GradientType=1 );
+  min-height: 100vh;
+}
+.header {
+  font-family: Matemasie;
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 205, 228);
+  font-size: 8vmin;
+  padding: 4vmin;
+  /* border: 3px solid rgb(22, 43, 15); */
+  border-radius: 4vmin;
+  margin: 20px 0 30px 0;
+  color: #2a2934;
+}
+.main {
+  background: rgba(154, 154, 154, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 0.4vmin solid #2a2934;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  margin: auto;
+  height: vh;
+  color: white;
+  padding-top: 5vmin;
+}
+
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30vmin;
+}
+.score-board-comp,
+.score-board-user {
+  /* display: flex; */
+  text-align: center;
+  font-size: 3vmin;
+}
+.scores {
+  font-size: 6vmin;
+}
+.game-screen,
+.choice-btn {
+  margin: 6vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vmin;
+  overflow: hidden;
+}
+.game-screen img {
+  padding: 1vmin;
+  height: 15vmin;
+  width: 15vmin;
+}
+.game-screen img:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  /* box-sizing: border-box; */
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  /* line-height: 1em; */
+  /* max-width: 100%; */
+  min-width: 110px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn span {
+  background-color: rgb(5, 6, 45);
+  padding: 1vmin 3vmin;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.btn:hover span {
+  background: none;
+  color: black;
+  font-weight: bold;
+}
+
+.result_text{
+  color: #2a2934;
+  font-size: 4vmin;
+}
+.result_text2{
+  color: #2a2934;
+  font-size: 4vmin;
+}
