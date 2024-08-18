@@ -51,25 +51,25 @@ const win_game = (userchc, compchc) => {
 }
 const user_change_pic = (uchoice) => {
     if (uchoice === "Rock") {
-        userimg.src = "rock.png";
+        userimg.src = "images/rock.png";
     }
     else if (uchoice === "Paper") {
-        userimg.src = "paper.png";
+        userimg.src = "images/paper.png";
     }
     else {
-        userimg.src = "scissors.png";
+        userimg.src = "images/scissors.png";
     }
 
 }
 const comp_change_pic = (cchoice) => {
     if (cchoice === "Rock") {
-        compimg.src = "rock.png";
+        compimg.src = "images/rock.png";
     }
     else if (cchoice === "Paper") {
-        compimg.src = "paper.png";
+        compimg.src = "images/paper.png";
     }
     else {
-        compimg.src = "scissors.png";
+        compimg.src = "images/scissors.png";
     }
 
 }
